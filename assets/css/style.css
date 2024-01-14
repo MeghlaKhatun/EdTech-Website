@@ -1,0 +1,298 @@
+/*
+  Theme Name : Creative Studio
+  Author     : coderpbt@gmail.com
+  Support    : coderpbt@gmail.com
+  Description: Creative Studio Html5 Landingpage
+  Version    : 1.0
+*/
+
+/* Css Index
+ ===============================
+ 1 Header Css
+ 2 Banner Css
+ 3 Contact Css
+*/
+
+
+
+/*
+ Landingpage Default css
+*/
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 18px;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+span,
+video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   background: transparent;
+}
+
+p a {
+   background: transparent !important;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+   display: block;
+}
+
+textarea {
+   outline: none !important;
+}
+
+audio,
+canvas,
+video {
+   display: inline-block;
+}
+
+a {
+   outline: none !important;
+}
+
+audio:not([controls]) {
+   display: none;
+   height: 0;
+}
+
+[hidden] {
+   display: none;
+}
+
+code,
+kbd,
+pre,
+samp {
+   font-family: monospace, serif;
+   font-size: 1em;
+}
+
+pre {
+   white-space: pre;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+   content: '';
+   content: none;
+}
+
+ins {
+   background-color: #ff9;
+   color: #000;
+   text-decoration: none;
+}
+
+mark {
+   background-color: #A7F4F6;
+   color: #555;
+}
+
+del {
+   text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+   border-bottom: 1px dotted;
+   cursor: help;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+button {
+   outline: none !important;
+}
+
+input {
+   outline: none !important;
+}
+
+textarea {
+   outline: none !important;
+}
+
+/******************************** End default css*******************************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+   padding: 0;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+a {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+.container {
+   max-width: 1320px;
+   margin: 0 auto;
+}
+
+/**************************************/
+/********** Start Header  Area*********/
+/************************************/
+.header {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: 50px;
+   align-items: center;
+}
+
+.logo-text {
+   color: var(--Dark-02, #4A4A4A);
+   text-align: center;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+.menu ul {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   width: 666px;
+}
+
+.menu ul li a {
+   color: var(--Dark-03, #777);
+   text-align: center;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.menu ul li a:hover {
+   color: #289BDE;
+   font-weight: 500;
+}
+
+.btn-register {
+   color: #289BDE;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 600;
+   padding: 13px 33px;
+   border-radius: 5px;
+   border: 1px solid #289BDE;
+   outline: none;
+   cursor: pointer;
+   background-color: white;
+}
+.fa-bars{
+   display: none;
+}
+
+/**************************************/
+/*********** End Header  Area*********/
+/************************************/
