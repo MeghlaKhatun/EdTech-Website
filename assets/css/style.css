@@ -257,12 +257,20 @@ a:hover {
    font-weight: 600;
 }
 
+.menu {
+   z-index: 20;
+   /* background-color: black;
+   padding:20px 70px; */
+
+}
+
 .menu ul {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    align-items: center;
    width: 666px;
+
 }
 
 .menu ul li a {
@@ -289,7 +297,8 @@ a:hover {
    cursor: pointer;
    background-color: white;
 }
-.fa-bars{
+
+.fa-bars {
    display: none;
 }
 
@@ -300,8 +309,221 @@ a:hover {
 /**************************************/
 /*********** Start Banner  Area*********/
 /************************************/
+.banner-img img {
+   border-radius: 5px;
+   background-color: #1D1D1DB2;
+
+}
+
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+   display: flex;
+   justify-content: space-between;
+   font-size: 60px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+   color: white;
+   border: none;
+   padding: 0 50px !important;
+   font: inherit;
+   margin-top: -700px;
+   z-index: 30;
+   outline: none;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+   background: none;
+   color: #FFF;
+   text-decoration: none;
+}
 
 
 /**************************************/
 /*********** End Banner  Area*********/
+/************************************/
+
+
+/**************************************/
+/****Start Popular course  Area*******/
+/************************************/
+.popular-course {
+   margin: 130px 0;
+}
+
+.popular-course-header h1 {
+   color: var(--Dark-01, #1D1D1D);
+   text-align: center;
+   font-size: 45px;
+   font-weight: 600;
+   line-height: 60px;
+   width: 549px;
+   margin: 0 auto;
+}
+
+.popular-course-header p {
+   color: var(--Dark-03, #777);
+   text-align: center;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 30px;
+   width: 606px;
+   margin: 0 auto;
+}
+
+.popular-course-main {
+   margin: 50px 0;
+}
+
+.popular-course-card {
+   display: flex;
+   justify-content: space-between;
+   gap: 24px;
+   margin-bottom: 24px;
+}
+
+.popular-courses {
+   display: flex;
+   border-radius: 5px;
+   border: 1px solid var(--Dark-06, #E8E8E8);
+   background: #FFF;
+}
+
+.popular-course-img {
+   width: 100%;
+   height: 100%;
+}
+
+.popular-course-text {
+   padding: 34px 27px 33px 24px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 133px;
+}
+
+.popular-course-text h2 {
+   color: var(--Dark-02, #4A4A4A);
+   font-size: 25px;
+   font-weight: 600;
+}
+
+.popular-course-text p {
+   color: var(--Dark-03, #777);
+   font-size: 16px;
+   font-weight: 400;
+   width: 397px;
+}
+
+.popular-course-text h3 {
+   color: #289BDE;
+   font-size: 18px;
+   font-weight: 600;
+}
+
+.popular-course-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.popular-course-btn button {
+   color: #FFF;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 600;
+   padding: 13px 33px;
+   border-radius: 5px;
+   border: 1px solid #289BDE;
+   background: #289BDE;
+   cursor: pointer;
+}
+
+/**************************************/
+/*******End Popular course  Area******/
+/************************************/
+
+/**************************************/
+/**Start E-learning institute   Area***/
+/************************************/
+
+.elearning-institute {
+   display: flex;
+   border-radius: 5px;
+   background: #F4FAFD;
+   margin: 130px 0;
+}
+
+.elearning-image img {
+   height: 100%;
+}
+
+.elearning-text {
+   padding: 130px 54px 130px 60px;
+}
+
+.elearning-text h1 {
+   width: 549px;
+   color: var(--Dark-01, #1D1D1D);
+   font-size: 45px;
+   font-weight: 600;
+   line-height: 60px;
+}
+
+.elearning-text p {
+   color: var(--Dark-03, #777);
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   margin-top: 10px;
+}
+
+.elearning-text h3 {
+   color: var(--Dark-03, #777);
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   margin-top: 20px;
+}
+
+.elearning-number {
+   display: flex;
+   gap: 50px;
+   margin: 30px 0;
+}
+
+.elearning-number h2 {
+   color: var(--Dark-01, #1D1D1D);
+   font-size: 45px;
+   font-weight: 600;
+   line-height: 60px;
+}
+
+.elearning-number h4 {
+   color: var(--Dark-03, #777);
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.elearning-btn button {
+   color: #FFF;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 600;
+   border-radius: 5px;
+   border: 1px solid #289BDE;
+   background: #289BDE;
+   display: inline-flex;
+   padding: 13px 33px;
+   cursor: pointer;
+}
+
+/**************************************/
+/****End E-learning institute   Area***/
 /************************************/

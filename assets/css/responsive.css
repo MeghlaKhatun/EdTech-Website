@@ -20,8 +20,8 @@
 
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
-    .header {
-        padding: 0 40px;
+    body {
+        padding: 0 50px;
     }
 
     .logo-text {
@@ -40,8 +40,8 @@
 
 
 @media all and (min-width: 768px) and (max-width:1023px) {
-    .header {
-        padding: 0 40px;
+    body {
+        padding: 0 50px;
     }
 
     .fa-bars {
@@ -74,8 +74,8 @@
 
 
 @media all and (max-width:767px) {
-    .header {
-        padding: 0 40px;
+    body {
+        padding: 0 50px;
     }
 
     .fa-bars {
@@ -106,8 +106,8 @@
 }
 
 @media all and (max-width:575px) {
-    .header {
-        padding: 0 40px;
+    body {
+        padding: 0 50px;
     }
 
     .fa-bars {
@@ -138,8 +138,8 @@
 }
 
 @media all and (max-width:413px) {
-    .header {
-        padding: 0 40px;
+    body {
+        padding: 0 50px;
     }
 
     .fa-bars {
@@ -170,8 +170,8 @@
 }
 
 @media all and (max-width:374px) {
-    .header {
-        padding: 0 40px;
+ body {
+        padding: 0 20px;
     }
 
     .fa-bars {
