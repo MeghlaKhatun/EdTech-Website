@@ -527,3 +527,48 @@ a:hover {
 /**************************************/
 /****End E-learning institute   Area***/
 /************************************/
+
+/**************************************/
+/****Start Registration now  Area***/
+/************************************/
+.register {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 80px 100px;
+   border-radius: 5px;
+   background: #289BDE;
+   margin: 130px 0;
+}
+
+.register h1 {
+   color: var(--White-Color, #FFF);
+   font-size: 45px;
+   font-weight: 600;
+   line-height: 60px;
+}
+
+.register p {
+   color: var(--Dark-07, #F4F4F4);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 30px;
+   width: 528px;
+   margin-top: 20px;
+}
+
+.registration-btn button {
+   padding: 13px 33px;
+   border-radius: 5px;
+   border: 1px solid var(--White-Color, #FFF);
+   background: #FFF;
+   color: #289BDE;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+/**************************************/
+/****End  Registration now    Area***/
+/************************************/
