@@ -569,6 +569,121 @@ a:hover {
    cursor: pointer;
 }
 
+.form {
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   color: #289BDE;
+   padding: 30px;
+   width: 300px;
+}
+
+.form-label {
+   font-size: 16px;
+   padding: 10px 0;
+   font-weight: 500;
+}
+
+.form-btn {
+   width: 50% !important;
+   margin: 15px 0;
+   border-radius: 0px !important;
+   background: #289BDE !important;
+   color: white !important;
+   text-align: center;
+   font-size: 16px !important;
+   font-weight: 600;
+   cursor: pointer;
+   width: 100%;
+}
+
+.form-input {
+   border: 1px solid #289BDE !important;
+   padding: 10px 0 10px 10px;
+   outline: none;
+   width: 100%;
+}
+
 /**************************************/
 /****End  Registration now    Area***/
+/************************************/
+
+/**************************************/
+/**** Start successful student  Area***/
+/************************************/
+
+.successful-student {
+   margin: 130px 0;
+}
+
+.successful-student-header h1 {
+   width: 549px;
+   color: var(--Dark-01, #1D1D1D);
+   font-size: 45px;
+   font-weight: 600;
+   line-height: 60px;
+   margin-bottom: 20px;
+}
+
+.successful-student-header p {
+   color: var(--Dark-03, #777);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 30px;
+   width: 556px;
+   margin-bottom: 50px;
+}
+
+.successful-student-main {
+   display: flex;
+   gap: 24px;
+}
+
+.successful-student-card {
+   border-radius: 5px;
+   border: 1px solid var(--Dark-06, #E8E8E8);
+   background: #FFF;
+}
+
+.successful-student-card img {
+   height: 100%;
+}
+
+.successful-student-card h2 {
+   color: var(--Dark-02, #4A4A4A);
+   font-size: 20px;
+   font-weight: 600;
+   margin-top: 21px;
+   margin-left: 21px;
+}
+
+.successful-student-card p {
+   color: var(--Dark-03, #777);
+   font-size: 16px;
+   font-weight: 400;
+   margin-bottom: 20px;
+   margin-top: 6px;
+   margin-left: 21px;
+}
+
+.view-btn {
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+.view-btn button {
+   color: #FFF;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 600;
+   padding: 13px 33px;
+   border-radius: 5px;
+   border: 1px solid #289BDE;
+   background: #289BDE;
+   cursor: pointer;
+}
+
+/**************************************/
+/****End  successful student    Area***/
 /************************************/
