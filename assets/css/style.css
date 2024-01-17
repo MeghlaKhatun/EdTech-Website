@@ -753,3 +753,33 @@ a:hover {
 /**************************************/
 /****End  student  questions  Area***/
 /************************************/
+
+
+/**************************************/
+/****Start  trusted company  Area***/
+/************************************/
+
+.trusted-company {
+   margin: 130px 0;
+}
+
+.trusted-company-header h1 {
+   color: var(--Dark-01, #1D1D1D);
+   text-align: center;
+   font-size: 45px;
+   font-weight: 600;
+   line-height: 60px;
+   margin-bottom: 30px;
+}
+
+.trusted-company-main {
+   display: flex;
+   justify-content: space-between;
+   overflow: hidden;
+   align-items: center;
+   width: 100%;
+}
+
+/**************************************/
+/****End  trusted company  Area***/
+/************************************/
