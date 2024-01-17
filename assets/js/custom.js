@@ -24,7 +24,9 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
-		
+	
+//frequently asked questions section
+
 
 
 
