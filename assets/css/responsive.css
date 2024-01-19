@@ -118,6 +118,56 @@
         font-size: 18px;
     }
 
+    .elearning-institute {
+        margin: 60px 0;
+        height: 543px;
+    }
+
+    .elearning-text h1 {
+        width: 320px;
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .elearning-text p {
+        font-size: 16px;
+        line-height: 26px;
+        width: 320px;
+    }
+
+    .elearning-text h3 {
+        display: none;
+    }
+
+    .elearning-number h2 {
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .elearning-number h4 {
+        font-size: 16px;
+    }
+
+    .elearning-text {
+        padding: 10px 20px;
+    }
+
+    .elearning-number {
+        flex-wrap: wrap;
+        margin: 20px 0;
+        gap: 10px 33px;
+    }
+
+    .elearning-image img {
+        height: 100%;
+        width: 300px;
+    }
+
+    .elearning-btn button {
+        font-size: 18px;
+        padding: 11px 18px;
+    }
+
 }
 
 
@@ -186,6 +236,10 @@
         margin-top: -350px;
     }
 
+    .popular-course {
+        margin: 60px 0;
+    }
+
     .popular-course-header h1 {
         font-size: 30px;
         width: auto;
@@ -198,6 +252,56 @@
 
     .popular-course-btn button {
         font-size: 18px;
+    }
+
+    .elearning-institute {
+        margin: 40px 0;
+        flex-direction: column;
+    }
+
+    .elearning-text h1 {
+        width: 320px;
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .elearning-text p {
+        font-size: 16px;
+        line-height: 26px;
+        width: 100%;
+    }
+
+    .elearning-text h3 {
+        display: none;
+    }
+
+    .elearning-number h2 {
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .elearning-number h4 {
+        font-size: 16px;
+    }
+
+    .elearning-text {
+        padding: 45px 40px;
+    }
+
+    .elearning-number {
+        flex-wrap: wrap;
+        margin: 20px 0;
+        gap: 10px 33px;
+    }
+
+    .elearning-image img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .elearning-btn button {
+        font-size: 18px;
+        padding: 11px 18px;
     }
 }
 
@@ -251,8 +355,12 @@
     .menu ul {
         background: black;
         padding: 30px;
-        width: 200px;
+        width: 150px;
         opacity: 0.95;
+    }
+
+    .menu ul li a {
+        font-size: 16px;
     }
 
     .menu {
@@ -282,6 +390,7 @@
         padding: 20px 0px 20px 20px;
         height: auto;
     }
+
     .popular-course-text h2 {
         font-size: 16px;
     }
@@ -292,9 +401,11 @@
         font-weight: 400;
         margin-top: 8px;
     }
-    .popular-course-text h3{
+
+    .popular-course-text h3 {
         margin: 16px 0 20px 0;
     }
+
     .popular-course-img img {
         width: 335px;
         height: 224px;
@@ -303,7 +414,65 @@
     .popular-courses {
         flex-direction: column;
     }
+
     .popular-course {
         margin: 32px 0;
+    }
+
+    .popular-course-main {
+        margin: 16px 0 24px 0;
+    }
+    .popular-course-btn button {
+        font-size: 18px;
+        padding: 11px 18px;
+    }
+    .elearning-institute {
+        margin: 32px 0;
+        flex-direction: column;
+    }
+
+    .elearning-text h1 {
+        width: 289px;
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .elearning-text p {
+        font-size: 14px;
+        line-height: 22px;
+        width: 100%;
+    }
+
+    .elearning-text h3 {
+        display: none;
+    }
+
+    .elearning-number h2 {
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .elearning-number h4 {
+        font-size: 16px;
+    }
+
+    .elearning-text {
+        padding: 20px 25px 20px 20px;
+    }
+
+    .elearning-number {
+        flex-wrap: wrap;
+        margin: 20px 0;
+        gap: 10px 33px;
+    }
+
+    .elearning-image img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .elearning-btn button {
+        font-size: 16px;
+        padding: 7px 18px;
     }
 }
