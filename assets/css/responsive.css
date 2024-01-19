@@ -20,7 +20,7 @@
 
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
-    body {
+    .container {
         padding: 0 50px;
     }
 
@@ -40,7 +40,7 @@
 
 
 @media all and (min-width: 768px) and (max-width:1023px) {
-    body {
+    .container {
         padding: 0 50px;
     }
 
@@ -55,18 +55,66 @@
 
 
     }
+
     .menu ul li a {
         display: block;
         margin-bottom: 15px;
     }
+
     .menu ul {
         display: block;
     }
-    .menu.active{
+
+    .menu.active {
         display: block;
     }
+
     .btn-register {
         padding: 10px 27px;
+        font-size: 18px;
+    }
+
+    .header {
+        margin: 50px 0 35px 0;
+    }
+
+    .logo-text {
+        font-size: 35px;
+    }
+
+    .btn-register {
+        margin-left: 300px;
+    }
+
+    .menu ul {
+        background: black;
+        padding: 30px;
+        width: 250px;
+        opacity: 0.95;
+    }
+
+    .menu {
+        margin-left: 350px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {
+        padding: 0 20px !important;
+        margin-top: -400px;
+    }
+
+    .popular-course-header h1 {
+        font-size: 30px;
+        width: auto;
+    }
+
+    .popular-course-card {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .popular-course-btn button {
         font-size: 18px;
     }
 
@@ -74,7 +122,7 @@
 
 
 @media all and (max-width:767px) {
-    body {
+    .container {
         padding: 0 50px;
     }
 
@@ -89,24 +137,72 @@
 
 
     }
+
     .menu ul li a {
         display: block;
         margin-bottom: 15px;
     }
+
     .menu ul {
         display: block;
     }
-    .menu.active{
+
+    .menu.active {
         display: block;
     }
+
     .btn-register {
         padding: 10px 27px;
+        font-size: 18px;
+    }
+
+    .header {
+        margin: 50px 0 35px 0;
+    }
+
+    .logo-text {
+        font-size: 35px;
+    }
+
+    .btn-register {
+        margin-left: 200px;
+    }
+
+    .menu ul {
+        background: black;
+        padding: 30px;
+        width: 200px;
+        opacity: 0.95;
+    }
+
+    .menu {
+        margin-left: 300px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {
+        padding: 0 20px !important;
+        margin-top: -350px;
+    }
+
+    .popular-course-header h1 {
+        font-size: 30px;
+        width: auto;
+    }
+
+    .popular-course-card {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .popular-course-btn button {
         font-size: 18px;
     }
 }
 
 @media all and (max-width:575px) {
-    body {
+    .container {
         padding: 0 50px;
     }
 
@@ -121,82 +217,93 @@
 
 
     }
+
     .menu ul li a {
         display: block;
         margin-bottom: 15px;
     }
+
     .menu ul {
         display: block;
     }
-    .menu.active{
+
+    .menu.active {
         display: block;
     }
+
     .btn-register {
         padding: 10px 27px;
         font-size: 18px;
     }
-}
 
-@media all and (max-width:413px) {
-    body {
-        padding: 0 50px;
+    .logo-text {
+        font-size: 25px;
     }
 
-    .fa-bars {
-        display: block;
+    .btn-register {
+        display: none;
+    }
+
+    .header {
+        margin: 44px 0 20px 0;
+    }
+
+    .menu ul {
+        background: black;
+        padding: 30px;
+        width: 200px;
+        opacity: 0.95;
     }
 
     .menu {
-        position: absolute;
-        top: 120px;
-        display: none;
+        margin-left: 100px;
+    }
 
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {
+        padding: 0 20px !important;
+        margin-top: -200px;
+    }
 
-    }
-    .menu ul li a {
-        display: block;
-        margin-bottom: 15px;
-    }
-    .menu ul {
-        display: block;
-    }
-    .menu.active{
-        display: block;
-    }
-    .btn-register {
-        padding: 10px 27px;
+    .popular-course-header h1 {
         font-size: 18px;
-    }
-}
-
-@media all and (max-width:374px) {
- body {
-        padding: 0 20px;
+        width: auto;
     }
 
-    .fa-bars {
-        display: block;
+    .popular-course-header p {
+        width: 305px;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0 auto;
     }
 
-    .menu {
-        position: absolute;
-        top: 120px;
-        display: none;
+    .popular-course-text {
+        padding: 20px 0px 20px 20px;
+        height: auto;
+    }
+    .popular-course-text h2 {
+        font-size: 16px;
+    }
 
+    .popular-course-text p {
+        width: 272px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 8px;
+    }
+    .popular-course-text h3{
+        margin: 16px 0 20px 0;
+    }
+    .popular-course-img img {
+        width: 335px;
+        height: 224px;
+    }
 
+    .popular-courses {
+        flex-direction: column;
     }
-    .menu ul li a {
-        display: block;
-        margin-bottom: 15px;
-    }
-    .menu ul {
-        display: block;
-    }
-    .menu.active{
-        display: block;
-    }
-    .btn-register {
-        padding: 10px 27px;
-        font-size: 18px;
+    .popular-course {
+        margin: 32px 0;
     }
 }

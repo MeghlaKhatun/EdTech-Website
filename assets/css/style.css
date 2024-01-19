@@ -244,7 +244,6 @@ a:hover {
 /************************************/
 .header {
    display: flex;
-   flex-wrap: wrap;
    justify-content: space-between;
    margin: 50px auto;
    align-items: center;
@@ -379,6 +378,7 @@ a:hover {
 
 .popular-course-card {
    display: flex;
+   flex-direction: row;
    justify-content: space-between;
    gap: 24px;
    margin-bottom: 24px;
@@ -386,6 +386,7 @@ a:hover {
 
 .popular-courses {
    display: flex;
+   flex-direction: row;
    border-radius: 5px;
    border: 1px solid var(--Dark-06, #E8E8E8);
    background: #FFF;
@@ -533,6 +534,7 @@ a:hover {
 /************************************/
 .register {
    display: flex;
+   flex-wrap: wrap;
    align-items: center;
    justify-content: space-between;
    padding: 80px 100px;
@@ -723,7 +725,7 @@ a:hover {
 
 
 /**************************************/
-/****Start  student  questions  Area***/
+/****Start  frequently questions  Area***/
 /************************************/
 
 .frequent-question {
@@ -748,10 +750,97 @@ a:hover {
    margin: 20px auto 50px auto;
 }
 
+.accordions {
+   max-width: 872px;
+   margin: 0 auto;
+}
+.accordion-item  {
+   margin-bottom: 20px;
+}
+.accordion-item button {
+   width: 100%;
+   padding: 25px 0 25px 40px;
+   border-radius: 5px;
+   border: 1px solid var(--Dark-06, #E8E8E8);
+   background: var(--White-Color, #FFF);
+   outline: none;
+   text-align: left;
+   color: var(--Dark-02, #4A4A4A);
+   font-size: 20px;
+   font-weight: 600;
+   position: relative;
+}
 
+.accordion-item button .icon {
+   position: absolute;
+   display: inline-block;
+   width: 23px;
+   height: 23px;
+   border-radius: 100%;
+   border: 1px solid;
+   background: white;
+   /* top: 0%; */
+   right: 26px;
+   color: #787777;
+}
 
+.accordion-item button:hover,
+.accordion-item button:focus {
+   cursor: pointer;
+}
+
+.accordion-item button .icon::before {
+   position: absolute;
+   display: block;
+   content: "";
+   width: 12px;
+   height: 2px;
+   top: 10px;
+   left: 5px;
+   background-color: currentColor;
+}
+
+.accordion-item button .icon::after {
+   position: absolute;
+   display: block;
+   content: "";
+   width: 2px;
+   height: 12px;
+   top: 5px;
+   left: 10px;
+   background-color: currentColor;
+}
+
+.accordion-item button[aria-expanded="true"] .icon::after {
+   width: 0;
+}
+
+.accordion-item button[aria-expanded="true"] {
+   border-radius: 5px;
+   border: none;
+   background: rgba(40, 155, 222, 0.10);
+}
+
+.accordion-content p {
+   color: var(--Dark-03, #777);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 30px;
+   padding: 20px 40px ;
+}
+.accordion-item button[aria-expanded="true"]+.accordion-content{
+   opacity: 1;
+   max-height: 150px;
+   transition: all 200ms linear;
+}
+.accordion-content{
+   opacity: 0;
+   max-height: 0;
+   overflow: hidden;
+   transition: opacity 200ms linear, max-height 200ms linear;
+}
 /**************************************/
-/****End  student  questions  Area***/
+/****End  frequently questions  Area***/
 /************************************/
 
 
@@ -819,14 +908,16 @@ a:hover {
    font-weight: 400;
    line-height: 126%;
 }
-.footer-icon{
+
+.footer-icon {
    display: flex;
    width: 205px;
    justify-content: space-between;
    margin-top: 20px;
    align-items: center;
 }
-.fa-brands{
+
+.fa-brands {
    background: #242424;
    height: 40px;
    width: 40px;
@@ -836,6 +927,7 @@ a:hover {
    justify-content: center;
    color: white;
 }
+
 /**************************************/
 /**********End  footer Area***********/
 /************************************/
