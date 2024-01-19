@@ -103,9 +103,11 @@
         padding: 0 20px !important;
         margin-top: -400px;
     }
-    .popular-course{
+
+    .popular-course {
         margin: 60px 0;
     }
+
     .popular-course-header h1 {
         font-size: 30px;
         width: auto;
@@ -169,26 +171,99 @@
         font-size: 18px;
         padding: 11px 18px;
     }
+
     .register {
         flex-direction: column;
         align-items: center;
         padding: 58px;
-        margin: 60px 0;
+        margin: 50px 0;
         text-align: center;
     }
+
     .register h1 {
         font-size: 30px;
         line-height: normal;
     }
+
     .register p {
         font-size: 16px;
         line-height: 30px;
         margin-bottom: 20px;
         margin-top: 10px;
     }
+
     .registration-btn button {
         padding: 11px 18px;
         font-size: 18px;
+    }
+
+    .successful-student {
+        margin: 60px 0;
+    }
+
+    .successful-student-header h1 {
+        width: auto;
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .successful-student-header p {
+        font-size: 16px;
+        line-height: 30px;
+        width: 415px;
+        margin-bottom: 30px;
+    }
+
+    .successful-student-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .successful-student-card img {
+        height: 100%;
+        width: 100%;
+    }
+    .view-btn button {
+        font-size: 18px;
+        padding: 11px 18px;
+    }
+    .frequent-question {
+        margin: 60px 0;
+    }
+    .questions-header h1 {
+        font-size: 30px;
+        line-height: normal;
+    }
+    .questions-header p {
+        margin: 10px auto 30px auto;
+    }
+    .accordions {
+        max-width: 734px;
+        margin: 0 auto;
+     }
+     .accordion-item button {
+        padding: 25px 0 25px 30px;
+     
+     }
+     .accordion-content p {
+        line-height: 28px;
+        padding: 20px 0;
+     }
+     .accordion-item button[aria-expanded="true"]+.accordion-content{
+        opacity: 1;
+        max-height: 160px;
+        transition: all 200ms linear;
+     }
+     .trusted-company {
+        margin: 50px 0;
+    }
+    .trusted-company {
+        display: none;
+    }
+    .footer {
+        padding: 60px 0;
     }
 
 }
@@ -260,7 +335,7 @@
     }
 
     .popular-course {
-        margin: 60px 0;
+        margin: 50px 0;
     }
 
     .popular-course-header h1 {
@@ -326,6 +401,7 @@
         font-size: 18px;
         padding: 11px 18px;
     }
+
     .register {
         flex-direction: column;
         align-items: center;
@@ -333,10 +409,12 @@
         margin: 60px 0;
         text-align: center;
     }
+
     .register h1 {
         font-size: 30px;
         line-height: normal;
     }
+
     .register p {
         font-size: 16px;
         line-height: 30px;
@@ -344,15 +422,101 @@
         margin-top: 10px;
         width: auto;
     }
+
     .registration-btn button {
         padding: 11px 18px;
         font-size: 18px;
     }
+
+    .successful-student {
+        margin: 50px 0;
+    }
+
+    .successful-student-header h1 {
+        width: auto;
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .successful-student-header p {
+        font-size: 16px;
+        line-height: 30px;
+        width: 415px;
+        margin-bottom: 30px;
+    }
+
+    .successful-student {
+        margin: 50px 0;
+    }
+
+    .successful-student-header h1 {
+        width: auto;
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .successful-student-header p {
+        font-size: 16px;
+        line-height: 30px;
+        width: 415px;
+        margin-bottom: 30px;
+    }
+
+    .successful-student-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .successful-student-card img {
+        height: 100%;
+        width: 100%;
+    }
+    .view-btn button {
+        font-size: 18px;
+        padding: 11px 18px;
+    }
+    .frequent-question {
+        margin: 50px 0;
+    }
+    .questions-header h1 {
+        font-size: 30px;
+        line-height: normal;
+    }
+    .questions-header p {
+        margin: 10px auto 30px auto;
+    }
+    .accordions {
+        max-width: 734px;
+        margin: 0 auto;
+     }
+     .accordion-item button {
+        padding: 25px 0 25px 30px;
+     
+     }
+     .accordion-content p {
+        line-height: 28px;
+        padding: 20px 0;
+     }
+     .accordion-item button[aria-expanded="true"]+.accordion-content{
+        opacity: 1;
+        max-height: 180px;
+        transition: all 200ms linear;
+     }
+     .trusted-company {
+        display: none;
+    }
+    .footer {
+        padding: 50px 0;
+    }
+
 }
 
 @media all and (max-width:575px) {
     .container {
-        padding: 0 50px;
+        padding: 0 20px;
     }
 
     .fa-bars {
@@ -467,10 +631,12 @@
     .popular-course-main {
         margin: 16px 0 24px 0;
     }
+
     .popular-course-btn button {
         font-size: 18px;
         padding: 11px 18px;
     }
+
     .elearning-institute {
         margin: 32px 0;
         flex-direction: column;
@@ -520,14 +686,17 @@
         font-size: 16px;
         padding: 7px 18px;
     }
+
     .register {
         padding: 30px 15px;
         margin: 32px 0;
         text-align: center;
     }
+
     .register h1 {
         font-size: 18px;
     }
+
     .register p {
         font-size: 14px;
         line-height: 24px;
@@ -535,8 +704,104 @@
         margin-top: 10px;
         width: auto;
     }
+
     .registration-btn button {
         padding: 7px 18px;
         font-size: 16px;
     }
+
+    .successful-student {
+        margin: 32px 0;
+    }
+
+    .successful-student-header h1 {
+        margin-bottom: 5px;
+        font-size: 20px;
+        width: 222px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .successful-student-header p {
+        font-size: 14px;
+        line-height: 21px;
+        width:auto;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .successful-student-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    .successful-student-card img {
+        height: 100%;
+        width: 100%;
+    }
+    .successful-student-card h2 {
+        text-align: center;
+    }
+    .successful-student-card p {
+        text-align: center;
+    }
+    .view-btn button {
+        font-size: 18px;
+        padding: 11px 18px;
+    }
+   
+    .frequent-question {
+        margin: 32px 0;
+    }
+    .questions-header h1 {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .questions-header p {
+        margin: 3px auto 16px auto;
+        width: auto;
+    }
+    .accordion-item button {
+        padding: 19px 80px 19px 20px;
+        font-size: 16px;
+     }
+    .accordions {
+        max-width: 100%;
+        margin: 0 auto;
+     }
+     .accordion-content p {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 16px 0;
+     }
+     .accordion-item button[aria-expanded="true"]+.accordion-content{
+        opacity: 1;
+        max-height: 180px;
+        transition: all 200ms linear;
+     }
+     .trusted-company {
+        margin: 32px 0;
+    }
+    .footer {
+        padding: 30px 0;
+    }
+    .footer h1 {
+        font-size: 30px;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+    .fa-brands {
+        height: 30px;
+        width: 30px;
+    }
+    .footer-icon {
+        display: flex;
+        width: 153.75px;
+        justify-content: space-between;
+        margin-top: 20px;
+        align-items: center;
+    }
+
 }

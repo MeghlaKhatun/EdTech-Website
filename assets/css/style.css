@@ -637,7 +637,8 @@ a:hover {
 }
 
 .successful-student-main {
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
    gap: 24px;
 }
 
